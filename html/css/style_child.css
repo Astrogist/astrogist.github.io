@@ -127,21 +127,6 @@ body {
   width:20vh;
 }
 
-
-.headline2 img {
-  width:10vh;
-  height:10vh;
-  margin-left: 5px;
-  margin-top:5px;
-}
-.headline2 {
-  grid-column-start:center;
-  grid-column-end:main_end;
-  grid-row-start:top;
-  grid-row-end:head;
-  display:flex;
-  justify-content: flex-end;
-}
 /*スマホ用*/
 @media all and (max-device-aspect-ratio: 1/1) {
   * {
@@ -356,4 +341,7 @@ body {
   border-color:skyblue;
   border-width:0px 0px 2px 0px;
   margin:10px 0px 10px 0px;
+}
+.border {
+  border:solid black 1px;
 }
